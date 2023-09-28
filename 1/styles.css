@@ -1,0 +1,36 @@
+/* Стили для вкладок и слайдера */
+.tab-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.slider {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    background-color: #f2f2f2;
+}
+
+.slide.active {
+    display: block;
+}
